@@ -9,6 +9,8 @@ function logar() {
         "@github": { senha: senhaf, url: "https://github.com/robertqsilva" },
         "@portal": { senha: senhaf, url: "https://egov.paradigmabs.com.br/sescba/Default.aspx" },
         "@hotmail": { senha: senhaf, url: "https://outlook.live.com/" },
+        "@gpt": { senha: senhaf, url: "https://chat.openai.com/" },
+        "@binario": { senha: senhaf, url: "https://www.prepostseo.com/tool/br/binary-translator" },
     };
 
     if (validLogins.hasOwnProperty(user) && validLogins[user].senha === senha) {
