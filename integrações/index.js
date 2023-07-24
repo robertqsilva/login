@@ -12,6 +12,7 @@ function logar() {
         "@gpt": { senha: senhaf, url: "https://chat.openai.com/" },
         "@binario": { senha: senhaf, url: "https://www.prepostseo.com/tool/br/binary-translator" },
         "@unifacs": { senha: senhaf, url: "https://www.unifacs.br/" },
+        "@youtube": { senha: senhaf, url: "https://www.youtube.com/?hl=pt" },
     };
 
     if (validLogins.hasOwnProperty(user) && validLogins[user].senha === senha) {
