@@ -33,7 +33,7 @@ function mostrarMensagem() {
 
 
     // Definir o conteúdo do balão
-    balao.innerHTML = "Somente eu tenho acesso arrombado!   @rqueiroz__";
+    balao.innerHTML = "Somente o usuário administrador tem acesso!  @rqueiroz__";
 
     // Criar botão de fechar
     var botaoFechar = document.createElement("button");
